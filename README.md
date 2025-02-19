@@ -1,2 +1,2 @@
-# YouTube-Feed-Inhancer
+# YouTube-Feed-Enhancer
 Enhance Your Youtube Feed
