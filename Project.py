@@ -3,12 +3,12 @@ import urllib.request
 import re
 import webbrowser
 import time
-# import selenium.webdriver as webdriver
+
 query = input("Enter your Topic: ")
 
 # Api Key **************************** PRIVATE *******************************************
 client = Groq(
-    api_key="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",
+    api_key="ADD KEY HERE",
 )
 # ****************************************************************************************
 
@@ -48,6 +48,5 @@ for i in responcelist:
     video_ids = re.findall(r"watch\?v=(\S{11})", html.read().decode())
     url = "https://www.youtube.com/watch?v=" + video_ids[4]
     
-    # print(url)
     webbrowser.open(url)
     time.sleep(10)
